@@ -1,7 +1,8 @@
 .product-section {
     position: relative;
     width: 100%;
-    height: 70vh;
+    /* height: 70vh; */
+    padding: 10px 50px;
 }
 
 .product-section h1 {
@@ -15,28 +16,29 @@
     text-align: center;
     font-size: 20px;
     color: rgb(65, 66, 66);
+    margin-bottom: 2rem;
 }
 
 .best-deals {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 200px 200px 200px 200px 200px 200px;
     gap: 5px;
     padding: 0 50px;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .best-deals .product-list {
-    display: flex;
+    /* display: flex;
     justify-content: space-evenly;
-    margin-top: 2rem;
+    margin-top: 2rem; */
 }
 
 .best-deals .product-card {
-    position: relative;
+    /* position: relative;
     margin: 1rem;
     max-width: 200px;
-    max-height: 180px;
+    max-height: 180px; */
 }
 
 .best-deals .product-card img {
@@ -50,7 +52,7 @@
 .best-deals .product-list .discount {
     position: absolute;
     top: 0;
-    left: 33%;
+    left: 45%;
     color: #fff;
     background-color: rgb(233, 32, 32);
     padding: 2px 4px;
@@ -122,4 +124,28 @@
 
 .viewMore .view-more .chara {
     margin: 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
