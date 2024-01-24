@@ -1,0 +1,112 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 58vh;
+    overflow: hidden;
+}
+
+.slides {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.active {
+    display: inline-block;
+}
+
+.inactive {
+    display: none;
+}
+
+.slide-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide-title, .slide-text, .price, .view-link {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    top: 40%;
+    z-index: 1000;
+}
+
+.slide-title {
+    font-size: 20px;
+}
+
+.slide-text {
+    font-size: 50px;
+    top: 50%;
+}
+
+.price {
+    font-size: 20px;
+    top: 65%;
+}
+
+.view-link {
+    top: 75%;
+    text-decoration: none;
+}
+
+.view {
+    color: #fff;
+    font-size: 25px;
+    background-color: #a09d9d;
+    padding: 10px 20px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.left, .right {
+    position: absolute;
+    color: #fff;
+    background-color: #a09d9d;
+    top: 28%;
+    width: auto;
+    padding: 30px 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.left {
+    left: 30px;
+}
+
+.right {
+    right: 30px;
+}
+
+.all-dots {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    top: 90%;
+    z-index: 1000;
+}
+
+.dot {
+    display: inline-block;
+    cursor: pointer;
+    height: 0.5rem;
+    width: 0.5rem;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: rgba(91, 89, 89, 0.6);
+}
+
+.dot:hover, .active-dot {
+    background-color: rgba(0, 0, 0, 0.8);
+}
