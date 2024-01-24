@@ -73,7 +73,7 @@
   position: absolute;
   color: #fff;
   background-color: #a09d9d;
-  top: 28%;
+  top: 20%;
   width: auto;
   padding: 30px 10px;
   border-radius: 10px;
@@ -114,4 +114,18 @@
 .dot:hover,
 .active-dot {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+  .slide-title {
+    font-size: 15px;
+  }
+
+  .slide-text {
+    font-size: 30px;
+  }
+
+  .price {
+    font-size: 15px;
+  }
 }

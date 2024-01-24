@@ -61,15 +61,8 @@ function BestDeals() {
           ))}
         </Swiper>
       </div>
-      <div className="viewMore">
-        <a href="#">
-          <span className="view-more">
-            View More
-            <span className="chara">
-              <RxDoubleArrowRight />
-            </span>
-          </span>
-        </a>
+      <div className="best__view__more">
+        <a href="#">View More</a>
       </div>
     </div>
   );

@@ -60,11 +60,12 @@
   border-bottom-right-radius: 8px;
 } */
 
-/* .released-card img {
+.released-card img {
   max-width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 11/11;
+  margin-left: 50px;
   cursor: pointer;
-} */
+}
 
 .released-section .released .released-card p {
   position: absolute;
